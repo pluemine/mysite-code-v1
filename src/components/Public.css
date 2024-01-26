@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+:root {
+  --background-color: #fcfcfd;
+  --surface-color: #ffffff;
+  --image-container-color: #f6f6f7;
+  --banner-background-color: #efe4da;
+  --font-primary-color: #000000;
+  --font-secondary-color: #484850;
+  --font-tag-color: #1e88e5;
+  --border-color: #eeeeee;
+  --shadow-color: 0px 2px 8px 0px rgba(0, 0, 0, 0.04);
+  --background-transparent-color: linear-gradient(
+    102deg,
+    rgba(249, 250, 251, 0.75) 0%,
+    rgba(249, 250, 251, 0) 98.85%
+  );
+}
+
+[data-theme='dark'] {
+  --background-color: #141416;
+  --surface-color: #18181a;
+  --image-container-color: #1e1e21;
+  --banner-background-color: #75502e;
+  --font-primary-color: #ffffff;
+  --font-secondary-color: #c2c2c2;
+  --font-tag-color: #c2c4f8;
+  --border-color: #242426;
+  --shadow-color: 0px 2px 8px 0px rgba(0, 0, 0, 0.32);
+  --background-transparent-color: linear-gradient(
+    102deg,
+    rgba(30, 30, 35, 0.75) 0%,
+    rgba(30, 30, 35, 0) 98.85%
+  );
+}
+
+@media (max-width: 1200px) {
+  .footer-container {
+    padding-bottom: 72px !important;
+  }
+}
+
+.font-super {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 32px !important;
+  line-height: 48px !important;
+  transition: all 0.5s ease;
+}
+
+.font-header {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  transition: all 0.5s ease;
+}
+
+.font-subheader {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  transition: all 0.5s ease;
+}
+
+.font-body {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  transition: all 0.5s ease;
+}
+
+.font-bodybold {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  transition: all 0.5s ease;
+}
+
+.font-subbody {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 21px !important;
+  transition: all 0.5s ease;
+}
+
+.font-subbodybold {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 21px !important;
+  transition: all 0.5s ease;
+}
+
+.font-highlight {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  transition: all 0.5s ease;
+}
+
+.font-highlightbold {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  transition: all 0.5s ease;
+}
+
+.font-tag {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.color-fontmain {
+  color: var(--font-primary-color);
+  transition: all 0.5s ease !important;
+}
+
+.color-fontinvert-fixed {
+  color: var(--surface-color) !important;
+  transition: all 0.5s ease !important;
+}
+
+.color-fontsub {
+  color: var(--font-secondary-color);
+  transition: all 0.5s ease !important;
+}
+
+.color-fontselect {
+  color: var(--font-tag-color);
+  transition: all 0.5s ease !important;
+}
+
+.color-background {
+  background-color: var(--background-color) !important;
+  background: var(--background-color) !important;
+  transition: all 0.5s ease !important;
+}
+
+.color-surface {
+  background-color: var(--surface-color) !important;
+  background: var(--surface-color) !important;
+  transition: all 0.5s ease !important;
+}
+
+.scroll-margin {
+  scroll-margin: 80px;
+}
+
+.home-banner {
+  background: linear-gradient(
+    101deg,
+    rgba(174, 32, 242, 0.04) 0%,
+    rgba(33, 150, 243, 0.08) 100%
+  );
+}
+
+.home-skillcard {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-color);
+  padding: 24px;
+  border-radius: 8px;
+  scroll-margin: 96px;
+  transition: all 0.5s ease;
+}
+
+.profile-image {
+  width: 64px;
+  border-radius: 64px;
+}
+
+.settings-icon-style {
+  cursor: pointer;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+}
+
+.settings-icon-style:disabled,
+.settings-icon-style[disabled] {
+  cursor: auto;
+  opacity: 0.2;
+  border: 2px solid #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.image-container {
+  background-color: var(--image-container-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+
+.image-style {
+  height: 160px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+
+.image-style-inside {
+  height: 160px;
+  border-radius: 4px;
+  box-shadow: var(--shadow-color);
+  transition: all 0.5s ease;
+}
+
+.fixed-bar {
+  background: var(--surface-color);
+  transition: all 0.5s ease;
+}
+
+.navbar-container {
+  height: 56px;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+
+.BottomNavBar-container {
+  height: 56px;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+
+.footer-container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  transition: all 0.5s ease;
+}
+
+.global-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: all 0.5s ease;
+}
+
+.global-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.footer {
+  width: 100%;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  width: fit-content;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+
+.warning-container {
+  background: var(--banner-background-color);
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.consent-container {
+  background: var(--banner-background-color);
+  padding: 12px 4px;
+  transition: all 0.5s ease;
+}
