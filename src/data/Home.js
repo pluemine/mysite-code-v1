@@ -82,9 +82,6 @@ export const skill_data = [
           'I am a designer with experience in creating user-friendly and aesthetically pleasing interfaces. I can design wireframes, prototypes, and mockups using various tools and techniques. I also have a keen eye for minimalist design, which helps me to achieve clarity and simplicity in my work.',
         list: [
           {
-            title: 'Graphic Creator',
-          },
-          {
             title: 'Video Editing',
           },
           {
@@ -92,6 +89,9 @@ export const skill_data = [
           },
           {
             title: 'Figma Application',
+          },
+          {
+            title: 'Auto Layout & Flex',
           },
         ],
       },
@@ -106,16 +106,16 @@ export const skill_data = [
             title: 'C & C++',
           },
           {
-            title: 'Python',
+            title: 'Python & Libraries',
           },
           {
             title: 'React & React Native',
           },
           {
-            title: 'Bootstrap',
+            title: 'Google Colab & Kaggle',
           },
           {
-            title: 'Material UI',
+            title: 'Material UI & Ant Design',
           },
         ],
       },
@@ -127,13 +127,13 @@ export const skill_data = [
           'I am a personal finance enthusiast with a passion for investing, asset management and portfolio management. I have a solid understanding of financial markets and diversification strategies. I also have experience in using various tools and platforms to research, analyze and execute trades.',
         list: [
           {
-            title: 'Asset Management',
+            title: 'Investing',
           },
           {
             title: 'Tax Planning',
           },
           {
-            title: 'Investing',
+            title: 'Asset Management',
           },
           {
             title: 'Google Sheet & MS Excel',

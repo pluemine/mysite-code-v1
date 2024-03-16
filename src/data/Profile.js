@@ -57,7 +57,7 @@ export const profile_data = [
             icon: <AutoStoriesOutlinedIcon />,
             title: 'Case Study Portfolio',
             subtitle:
-              'I would like to show you my showcase of work. You can read my showcase of work anytime, and I will welcome your comments.',
+              'I invite you to explore my user experience design case studies in my portfolio. Your feedback is always welcome.',
             type: 'link',
             action_name: 'drive.google.com',
             path: 'https://drive.google.com/drive/folders/1ZGScBznNfxF8lIQE4h3MLOLLcOHPfo-B?usp=sharing',
@@ -97,6 +97,18 @@ export const profile_data = [
             type: 'link',
             action_name: 'udemy.com/certificate',
             path: 'https://www.udemy.com/certificate/UC-75df12ea-a188-4e14-b625-c62f27523744/',
+          },
+          {
+            certificate_id: '240310_aiat_superai4',
+            image_path: '/profile/certificate/240310_aiat_superai4.png',
+            title: 'Super AI Engineer SS4 : Theory',
+            description:
+              'I have completed the course certificate in Artificial Intelligence Theory. This comprehensive program equipped me with essential knowledge in programming fundamentals, machine learning, deep learning, image processing, IoT, natural language, data science and more. Additionally, I gained practical experience in applying these methods to real-world production scenarios and hackathons.',
+            issued: '10 March 2024',
+            tag: ['Data Science', 'Machine Learning', 'Deep Learning'],
+            type: 'link',
+            action_name: 'assessment.aiat.or.th/certificate',
+            path: 'https://assessment.aiat.or.th/certificate/f57aca68-4f20-4036-b1e1-5439c6312c56/',
           },
         ],
       },
@@ -160,6 +172,11 @@ export const profile_data = [
             time: 'Jan 2021 - Jun 2021',
             detail_list: [
               {
+                type: 'image',
+                detail: '',
+                image_path: '/profile/work_experience/work_theshowhopper.png',
+              },
+              {
                 type: 'text',
                 detail:
                   'Conducted research and analysis on user journey and pain points',
@@ -184,6 +201,12 @@ export const profile_data = [
             time: 'June 2021 - Present',
             detail_list: [
               {
+                type: 'image',
+                detail: '',
+                image_path:
+                  '/profile/work_experience/word_playtorium_playpeople.png',
+              },
+              {
                 type: 'text',
                 detail:
                   'Conducted requirement analysis and designed various software platforms for diverse domains, such as:',
@@ -192,24 +215,30 @@ export const profile_data = [
               {
                 type: 'text',
                 detail:
-                  'Human Resource Management System for employee management',
+                  '• Human Resource Management System for employee management',
                 image_path: '',
               },
               {
                 type: 'text',
                 detail:
-                  'Financial platforms for insurance applications and services, bond registration and booking systems, and more',
+                  '• Financial platforms for insurance applications and services, bond registration and booking systems, and more',
                 image_path: '',
               },
               {
                 type: 'text',
-                detail: 'Learning Management System for online education',
+                detail: '• Learning Management System for online education',
                 image_path: '',
               },
               {
                 type: 'text',
                 detail:
                   'Walked the customers and stakeholders through the flow and prototype.',
+                image_path: '',
+              },
+              {
+                type: 'text',
+                detail:
+                  'Developed internal company websites using ReactJS with the Ant Design framework',
                 image_path: '',
               },
             ],

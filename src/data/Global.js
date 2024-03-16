@@ -9,7 +9,7 @@ import BrightnessAutoIcon from '@mui/icons-material/BrightnessAuto';
 
 export const footer = {
   copyright: '© 2024 pluemine. All rights reserved.',
-  version: 'Version 1.00b240126',
+  version: 'Version 1.01b240316',
 };
 
 export const accentList = [
